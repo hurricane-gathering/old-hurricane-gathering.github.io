@@ -1,0 +1,514 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>我的自制导航网站</title>
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+    <link rel="shortcut icon" href="favcion.ico" />
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+<body>
+	<!--需求：把百度搜索框内嵌到自己的网页中-->
+			 		<!--解决方案分析-->
+			 		<!--input type="text" 表示是一个输入框-->
+			 		<!--input type="submit" 表示一个提交按钮 相当于一个开关告诉form要发送数据-->
+			 		<form action="https://www.baidu.com/s" style="text-align:center">
+			 			<input type="text" name="wd"/><input type="submit"  value="百度一下"/>
+			 		</form>
+
+    <div class="container" id="container">
+        <aside class="left-bar" id="leftBar">
+            <div class="title">
+                <p>我的自制导航网站</p>
+            </div>
+			
+                <div class="item active"><a href=""><i class="iconfont icon-daohang2"></i>nitto</a><i class="line"></i></div>
+                <ul class="nav-item" id="navItem">
+                    <li><a href="#bbs" class="active"><i class="fa fa-file-video-o fa-lg"></i>  视频</a></li>
+                    <li><a href="#sill"><i class="fa fa-file-audio-o fa-lg"></i>  音乐</a></li>
+                    <li><a href="#docs"><i class="fa fa-file-text fa-lg"></i>  读书</a></li>
+                    <li><a href="#tools"><i class="fa fa-file-image-o fa-lg"></i>  图片</a></li>
+                    <li><a href="#design"><i class="fa fa-windows fa-lg"></i>  软件</a></li>
+                    <li><a href="#study"><i class="fa fa-file-code-o fa-lg"></i>  编程</a></li>
+                    <li><a href="#operation"><i class="fa fa-wpforms fa-lg"></i>  博客</a></li>
+                    <li><a href="#yunfw"><i class="fa fa-cloud fa-lg"></i>  云服务</a></li>
+					<li><a href="#wangp"><i class="fa fa-database fa-lg"></i>  网盘</a></li>
+					<li><a href="#zaixi"><i class="fa fa-ravelry fa-lg"></i> 在校</a></li>
+                </ul>
+                
+            </nav>
+        </aside>
+        <section class="main">
+            <div id="mainContent">
+                <!-- 手机端菜单 -->
+                <div id="menu"><a href="#">菜单</a></div>
+				
+				
+                <!-- 视频  -->
+                <div class="box">
+                    <a href="#" name="bbs"></a>
+                    <div class="sub-category">
+                        <div><i class="fa fa-file-video-o fa-1x"></i> 视频</div>
+                    </div>
+					
+                    <div>
+                       
+                        
+                        <a target="_blank" href="https://www.iqiyi.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/aqy.jpg" alt="爱奇艺"> 爱奇艺</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="https://v.qq.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/txvideo.jpg" alt="腾讯视频"> 腾讯视频</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="https://www.youku.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/youku.jpg" alt="优酷"> 优酷</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="https://www.pptv.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/pp.jpg" alt="PP视频"> PP视频</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="http://51btbtt.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/bt.jpg" alt="BT之家"> BT之家</div>  
+                                                        <div class="desc"> 有广告 </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="http://www.zimuku.la/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/zimuku.jpg" alt="字幕库"> 字幕库</div>  
+                                                        <div class="desc"> 有广告 </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="https://subhd.tv/sub0/new">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/zuixinzm.jpg" alt="最新字幕"> 最新字幕</div>  
+                                                        <div class="desc"> 有广告 </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="https://www.taicishe.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/tcs.jpg" alt="英语台词社"> 英语台词社</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="https://www.bilibili.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/bilibili.jpg" alt="哔哩哔哩"> 哔哩哔哩</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="https://www.acfun.cn/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/acfun.jpg" alt="ACFUN"> ACFUN</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="http://www.imomoe.in/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/yingflower.jpg" alt="樱花动漫"> 樱花动漫</div>  
+                                                        <div class="desc"> 有广告 </div>
+                                                    </div>
+                        </a>
+                        
+                        
+                        
+                        <a target="_blank" href="https://bt.acgzero.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/zerodu.jpg" alt="零度动漫"> 零度动漫</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <!-- 音乐 -->
+                <div class="box">
+                    <a href="#" name="sill"></a>
+                    <div class="sub-category">
+                        <div><i class="fa fa-file-audio-o fa-1x"></i> 音乐</div>
+                    </div>
+                    <div>
+                        
+                        <a target="_blank" href="https://y.qq.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/qqmusic.jpg" alt="QQ音乐"> QQ音乐</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        <a target="_blank" href="https://music.163.com/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/wyymusic.jpg" alt="网易云音乐"> 网易云音乐</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                        <a target="_blank" href="https://www.huiyi8.com/yinxiao/">
+                                                    <div class="item">							
+                                                        <div class="logo"><img src="img/jpg/huiyi.jpg " alt="绘艺素材"> 破解绘艺素材</div>  
+                                                        <div class="desc">  </div>
+                                                    </div>
+                        </a>
+                        
+                    </div>
+                </div>
+
+
+
+                <!-- 读书 -->
+                <div class="box">
+                    <a href="" name="docs"></a>
+                    <div class="sub-category">
+                        <div><i class="fa fa-file-text fa-1x"></i> 读书</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://www.douban.com/">
+                                                    <div class="item">
+                                                        <div class="no-logo">豆瓣</div>
+                                                    </div>
+                        </a>
+						
+						<a target="_blank" href="https://www.cnki.net/">
+						                            <div class="item">
+						                                <div class="no-logo">中国知网</div>
+						                            </div>
+						</a>
+						
+						<a target="_blank" href="https://lorefree.com/">
+						                            <div class="item">
+						                                <div class="no-logo">Lore Free</div>
+						                            </div>
+						</a>
+						
+						<a target="_blank" href="https://epubw.xyz/">
+												     <div class="item">
+												     <div class="no-logo">ePUBw</div>
+												     </div>
+						</a>
+                        
+                        <a target="_blank" href="https://translate.google.cn/">
+                            <div class="item">
+                            <div class="no-logo">谷歌翻译</div>
+                            </div>
+                        </a>
+                        
+                        <a target="_blank" href="https://jianwai.youdao.com/index/0">
+                            <div class="item">
+                            <div class="no-logo">网易见外工作台</div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+				
+				
+				
+                <!-- 图片 -->
+                <div class="box">
+                    <a href="" name="tools"></a>
+                    <div class="sub-category">
+                        <div><i class="fa fa-file-image-o fa-1x"></i> 图片</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://laod.cn/chajian/pixiv-xiazai-chrome.html">
+                        						     <div class="item">
+                        						     <div class="no-logo">一个好用的Pixiv图片批量下载器</div>
+                        						     </div>
+                        </a>
+						
+                        
+                    </div>
+                </div>
+				
+				
+				
+                <!-- 软件 -->
+                <div class="box">
+                    <a href="" name="design"></a>
+                    <div class="sub-category">
+                        <div><i class="fa fa-windows fa-1x"></i> 软件</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="http://www.carrotchou.blog/">
+                        						     <div class="item">
+                        						     <div class="no-logo">胡萝卜周博客</div>
+                        						     </div>
+                        </a>
+						
+						<a target="_blank" href="https://msdn.itellyou.cn/">
+												     <div class="item">
+												     <div class="no-logo">MSDN</div>
+												     </div>
+						</a>
+						
+						<a target="_blank" href="http://www.ddooo.com/">
+												     <div class="item">
+												     <div class="no-logo">多多软件站</div>
+												     </div>
+						</a>
+						
+						<a target="_blank" href="http://www.sd173.com/">
+												     <div class="item">
+												     <div class="no-logo">闪电软件园</div>
+												     </div>
+						</a>
+						
+						<a target="_blank" href="https://www.wanvi.net/">
+												     <div class="item">
+												     <div class="no-logo">自然博客</div>
+												     </div>
+						</a>
+						
+						<a target="_blank" href="http://www.it404.net/">
+												     <div class="item">
+												     <div class="no-logo">万众博客</div>
+												     </div>
+						</a>
+						
+						<a target="_blank" href="https://www.jb51.net/?soft">
+												     <div class="item">
+												     <div class="no-logo">脚本之家</div>
+												     </div>
+						</a>
+						
+                    </div>
+                </div>
+
+				<!-- 编程 -->
+                <div class="box">
+                    <a href="#" name="study"></a>
+                    <div class="sub-category">
+                        <div><i class="fa fa-file-code-o fa-1x"></i> 编程</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://www.liaoxuefeng.com/">
+                                                    <div class="item">
+                                                        <div class="no-logo">廖雪峰的官方网站</div>
+                                                    </div>
+                        </a>
+						<a target="_blank" href="https://www.runoob.com/">
+						                            <div class="item">
+						                                <div class="no-logo">菜鸟教程</div>
+						                            </div>
+						</a>
+						<a target="_blank" href="https://so.csdn.net/so/">
+						                            <div class="item">
+						                                <div class="no-logo">csdn</div>
+						                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://www.jetbrains.com/help/idea/getting-started.html">
+                            <div class="item">
+                                <div class="no-logo">IDEA</div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://github.com/">
+                            <div class="item">
+                                <div class="no-logo">github</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+
+                <!-- 博客 -->
+                <div class="box">
+                    <a href="" name="operation"></a>
+                    <div class="sub-category">
+                        <div><i class="fa fa-wpforms fa-1x"></i> 博客</div>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://gridea.dev/">
+                                                    <div class="item">
+                                                        <div class="no-logo">Gridea</div>
+                                                    </div>
+                        </a>
+						
+						<a target="_blank" href="https://hexo.io/zh-cn/">
+						                            <div class="item">
+						                                <div class="no-logo">hexo</div>
+						                            </div>
+						</a>
+						
+						<a target="_blank" href="https://wp.xz.cn/">
+						                            <div class="item">
+						                                <div class="no-logo">WordPress</div>
+						                            </div>
+						</a>
+						
+                    </div>
+                </div>
+				
+				
+				<!-- 云服务 -->
+				<div class="box">
+				    <a href="" name="yunfw"></a>
+				    <div class="sub-category">
+				        <div><i class="fa fa-cloud fa-1x"></i> 云服务</div>
+				    </div>
+				    <div>
+						 <a target="_blank" href="https://www.aliyun.com/">
+													 <div class="item">
+														 <div class="no-logo">阿里云</div>
+													 </div>
+						 </a>
+						 
+						<a target="_blank" href="https://cloud.tencent.com/">
+						                            <div class="item">
+						                                <div class="no-logo">腾讯云</div>
+						                            </div>
+						</a>
+						<a target="_blank" href="http://renzhijia.com/">
+						                            <div class="item">
+						                                <div class="no-logo">乐云空间</div>
+						                            </div>
+						</a>
+				    </div>
+				</div>
+				
+												
+				<!-- 网盘 -->
+				<div class="box">
+				    <a href="" name="wangp"></a>
+				    <div class="sub-category">
+				        <div><i class="fa fa-database fa-1x"></i> 网盘</div>
+				    </div>
+				    <div>
+				        <a target="_blank" href="http://zfqhnmyjj.club/">
+				                                    <div class="item">
+				                                        <div class="no-logo">OneIndex</div>
+				                                    </div>
+				        </a>
+						
+						<a target="_blank" href="https://pan.baidu.com/">
+						                            <div class="item">
+						                                <div class="no-logo">百度网盘</div>
+						                            </div>
+                         </a>                                     
+                        
+                        <a target="_blank" href="https://www.lanzou.com/u">
+                            <div class="item">
+                                <div class="no-logo">蓝奏云</div>
+                            </div>
+                        </a>
+
+				    </div>
+				</div>
+				
+				<!-- 在校常用网站 -->
+								<div class="box">
+								    <a href="" name="zaixi"></a>
+								    <div class="sub-category">
+								        <div><i class="fa fa-ravelry fa-1x"></i> 在校常用网站</div>
+								    </div>
+								    <div>
+								        <a target="_blank" href="http://www.hnuahe.edu.cn/">
+								                                    <div class="item">
+								                                        <div class="no-logo">官网</div>
+								                                    </div>
+								        </a>
+										
+										<a target="_blank" href="http://i.chaoxing.com/vLoginPage">
+										                            <div class="item">
+										                                <div class="no-logo">超星</div>
+										                            </div>
+										</a>
+																			
+										
+								    </div>
+								</div>
+				
+				
+				
+                <footer class="footer">
+                    <div class="copyright">
+                        <div>
+                            Copyright © 2020
+                            <a href="    ">nitto</a>
+                        </div>
+                    </div>
+                </footer>
+        </section>
+        <script>
+        var oMenu = document.getElementById('menu');
+        var oBtn = oMenu.getElementsByTagName('a')[0];
+        var oLeftBar = document.getElementById('leftBar');
+        oBtn.onclick = function() {
+            if (oLeftBar.offsetLeft == 0) {
+                oLeftBar.style.left = -249 + 'px';
+            } else {
+                oLeftBar.style.left = 0 + 'px';
+            }
+            if (document.documentElement.clientWidth <= 481) {
+                document.onclick = function() {
+                    if (oLeftBar.offsetLeft == 0) {
+                        console.log(123);
+                        oLeftBar.style.left = -249 + 'px';
+                    }
+                }
+            }
+        }
+
+        var oNavItem = document.getElementById('navItem');
+        var aA = oNavItem.getElementsByTagName('a');
+        for(var i=0; i<aA.length; i++) {
+        	aA[i].onclick = function() {
+        		for(var j=0; j<aA.length; j++) {
+        			aA[j].className = '';
+        		}
+        		this.className = 'active';
+        	}
+        }
+        </script>
+		
+</body>
+
+</html>
