@@ -1,0 +1,31 @@
+div{
+	border: 1px dashed #000 ;
+	text-align: center;
+	background-color: aquamarine;
+	margin: 50px;
+	float: left;
+	background-color: transparent;
+	width: 128px;
+	height: 25px;
+		}
+.MOOC{
+	margin: 50px;
+	float: left;
+	background-color: transparent;
+	width: 125px;
+	height: 25px;
+		}
+.git{
+	margin: 50px;
+	float: left;
+	background-color: transparent;
+	width: 50px;
+	height: 25px;
+}
+.wanmeikankan{
+	margin: 50px;
+	float: left;
+	background-color: transparent;
+	width: 150px;
+	height: 25px;
+}
